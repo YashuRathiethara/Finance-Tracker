@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Bar } from 'react-chartjs-2';
+import './Dashboard.css';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -64,7 +65,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div>
+    <div className="dashboard-container">
       <WelcomeAnimation username="Yashu" />
       <h1>Track Your Finance</h1>
       <Bar data={data} />
