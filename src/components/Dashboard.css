@@ -1,6 +1,8 @@
 /* src/components/Dashboard.css */
+/*    background-color:#4e46 ; /* Replace with your preferred color */
+
 .dashboard-container {
-    background-color:#4e46 ; /* Replace with your preferred color */
+    background-color: darkgray;
     padding: 20px;
   }
   
